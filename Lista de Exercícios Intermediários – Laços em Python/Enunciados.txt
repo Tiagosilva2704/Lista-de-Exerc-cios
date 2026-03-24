@@ -1,0 +1,127 @@
+Lista de Exercícios Intermediários — Laços em Python
+
+Este material contém exercícios sobre laços de repetição e estruturas
+relacionadas em Python.
+
+Conteúdos abordados: - while - for - range() - break - continue -
+iteração em listas - iteração em strings - iteração em dicionários -
+enumerate() - zip()
+
+Parte 1 — Exercícios
+
+Exercício 1 — Soma de números digitados Crie um programa que peça
+números ao usuário continuamente.
+
+O programa deve: - somar todos os números digitados; - parar quando o
+usuário digitar 0.
+
+No final, mostre: - a soma total; - quantos números foram digitados (sem
+contar o 0).
+
+Exemplo:
+
+Digite um número: 5 Digite um número: 3 Digite um número: 8 Digite um
+número: 0
+
+Soma: 16 Quantidade: 3
+
+Exercício 2 — Contagem de pares e ímpares Peça 10 números ao usuário
+utilizando um for.
+
+Ao final, mostre: - quantos números são pares; - quantos números são
+ímpares.
+
+Exercício 3 — Tabuada com parada Peça ao usuário um número inteiro.
+
+Mostre a tabuada de 1 a 10, mas interrompa a repetição com break quando
+o resultado da multiplicação ultrapassar 50.
+
+Exemplo:
+
+Entrada: 7
+
+7 x 1 = 7 7 x 2 = 14 7 x 3 = 21 7 x 4 = 28 7 x 5 = 35 7 x 6 = 42 7 x 7 =
+49
+
+Exercício 4 — Ignorando números negativos Crie um programa que leia 8
+números.
+
+Use continue para ignorar números negativos.
+
+No final, mostre a soma apenas dos números positivos.
+
+Exercício 5 — Contador de letras Peça uma palavra ao usuário.
+
+Utilizando for, conte: - quantas vogais a palavra possui; - quantas
+consoantes a palavra possui.
+
+Exemplo:
+
+Entrada: engenharia
+
+Vogais: 5 Consoantes: 6
+
+Exercício 6 — Lista de compras numerada Dada a lista abaixo:
+
+compras = [“arroz”, “feijão”, “macarrão”, “leite”, “pão”]
+
+Use enumerate() para exibir a lista no formato:
+
+1 - arroz 2 - feijão 3 - macarrão 4 - leite 5 - pão
+
+Exercício 7 — Comparação de duas listas Dadas as listas:
+
+nomes = [“Ana”, “Carlos”, “João”, “Marina”] notas = [8.5, 6.0, 9.2, 7.1]
+
+Use zip() para mostrar:
+
+Ana tirou 8.5 Carlos tirou 6.0 João tirou 9.2 Marina tirou 7.1
+
+Exercício 8 — Contagem regressiva com validação Peça ao usuário um
+número maior que zero.
+
+Se ele digitar um valor inválido, peça novamente.
+
+Depois faça uma contagem regressiva até 0 usando while.
+
+Exemplo:
+
+Digite um número: 5
+
+5 4 3 2 1 0
+
+Exercício 9 — Soma de múltiplos Usando for e range(), calcule a soma de
+todos os números de 1 a 100 que são múltiplos de 3.
+
+Mostre também: - a soma total; - quantos múltiplos de 3 existem nesse
+intervalo.
+
+Exercício 10 — Dicionário de alunos Dado o dicionário:
+
+alunos = { “Ana”: 8, “Carlos”: 5, “Marina”: 7, “João”: 4 }
+
+Use for para: - mostrar cada aluno e sua nota; - informar se ele está
+Aprovado (nota >= 6) ou Reprovado.
+
+Exercício 11 — Encontrar maior e menor número Peça 5 números ao usuário.
+
+Utilizando laço, determine: - o maior número; - o menor número.
+
+Regra: não use max() nem min(). Faça a comparação manualmente com laço e
+condicionais.
+
+Exercício 12 — Jogo de adivinhação Crie um programa onde: - o número
+secreto é 7; - o usuário tenta adivinhar usando while.
+
+O programa deve informar: - “Muito alto”, quando o valor digitado for
+maior que 7; - “Muito baixo”, quando o valor digitado for menor que 7.
+
+Quando acertar, mostre: - Parabéns! Você acertou! - Tentativas: X
+
+Desafio Extra Crie um programa que leia vários nomes de alunos até que o
+usuário digite fim.
+
+Depois: - mostre todos os nomes digitados; - informe quantos nomes foram
+cadastrados; - mostre os nomes numerados usando enumerate().
+
+Esse desafio mistura while, listas e enumerate().
