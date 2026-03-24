@@ -1,0 +1,50 @@
+Lista de exercícios de lista e função- 3o ads
+
+Lista de Exercícios — Listas + Funções
+
+1 Soma de valores acima de um limite
+Crie uma função que receba uma lista e um número limite, e retorne a soma apenas dos valores
+maiores que esse limite.
+
+2 Substituir valores negativos
+Crie uma função que receba uma lista e substitua todos os valores negativos por 0.
+
+3 Contar valores dentro de intervalo
+Crie uma função que conte quantos valores da lista estão entre dois números.
+
+4 Multiplicar todos os elementos
+Crie uma função que receba uma lista e um número e retorne uma nova lista com os elementos
+multiplicados.
+
+5 Gerar lista de quadrados
+Crie uma função que receba um número n e gere uma lista com os quadrados de 1 até n.
+
+6 Verificar se valor existe
+Crie uma função que receba uma lista e um valor e retorne True ou False.
+
+7 Contar valores maiores que a média
+Crie uma função que calcule a média e retorne quantos valores estão acima dela.
+
+8 Remover valores repetidos mantendo ordem
+Crie uma função que remova duplicados sem alterar a ordem.
+
+9 Interseção de listas
+Crie uma função que receba duas listas e retorne os elementos em comum.
+
+10 Diferença entre listas
+Crie uma função que retorne os elementos da primeira lista que não estão na segunda.
+
+11 Compactar lista
+Ex: [1,1,1,2,2,3] → [(1,3),(2,2),(3,1)]
+
+12 Expandir lista compactada
+Faça o inverso do exercício anterior.
+
+13 Encontrar segundo maior valor
+Crie uma função que retorne o segundo maior valor sem usar sort.
+
+14 Rotacionar lista N vezes
+Ex: [1,2,3,4], n=2 → [3,4,1,2]
+
+15 Agrupar por paridade
+Reorganize a lista: pares primeiro, depois ímpares
